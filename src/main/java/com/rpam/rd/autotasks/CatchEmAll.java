@@ -8,7 +8,7 @@ public class CatchEmAll {
     //You may set another exception in this field;
     static Exception exception = new FileNotFoundException();
 
-    public static void riskyMethod() throws Exception, IOException {
+    public static void riskyMethod() throws Exception {
         throw exception;
     }
 
