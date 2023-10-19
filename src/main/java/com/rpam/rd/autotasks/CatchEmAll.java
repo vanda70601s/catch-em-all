@@ -12,7 +12,7 @@ public class CatchEmAll {
         throw exception;
     }
 
-    public static void main(String[] args) throws Exception, IllegalArgumentException {
+    public static void main(String[] args) throws Exception {
         try {
             riskyMethod();
         } catch (FileNotFoundException e) {
